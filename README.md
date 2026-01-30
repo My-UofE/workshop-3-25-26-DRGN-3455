@@ -42,10 +42,10 @@ Look at the following code.
 public class DemoIncrement {
     public static void main(String[] args) {
         // Demonstration of the increment operator
-        int a = 3;
-        int b = a++ + 5;
-        int x = 3;
-        int y = ++x + 5;
+        int a = 3; //3
+        int b = a++ + 5; //9
+        int x = 3; //4
+        int y = ++x + 5; //9
 
         System.out.print("a: " + a);
         System.out.print(", b: " + b);
