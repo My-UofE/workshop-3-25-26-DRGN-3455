@@ -20,13 +20,14 @@ public class AverageSquares {
         
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
+        endNum += 1;
 
-        System.out.println("Average of Squares from: " + startNum + " to " + endNum + "\n");
+        System.out.println("Average of Squares from: " + startNum + " to " + (endNum2-1) + "\n");
         int result = 0;
         for (int i = startNum; i < endNum; ++i) {
             result = result + (int) Math.pow(i,2);
         }
-        System.out.print(result/(endNum-startNum));        
+        System.out.print((double) result/(endNum-startNum));        
         System.out.print("\n");
 
     }
